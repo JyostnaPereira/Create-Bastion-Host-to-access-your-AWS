@@ -21,13 +21,11 @@ Create Your VPC
 14.	Configure the Setting 
 15.	Click Create VPC
 16.	In the success message Click OK
-
 Create Private Instance
 17.	Create an Ec2 Instance 
 18.	Auto public IP assignment change to disable
 19.	security configuration step for the inbound rules open the SSH port and force it to listen only to First Instance 
-20.	launch the instance.
-
+20.	launch the instance
 Finally, we can deploy an instance into the private subnet. For security purposes, we need to ensure that:
 21.	This instance uses a different key pair than the key pair used to access the bastion host instance
 22.	Note If you are using PuTTY as your SSH client, you will need to convert this file to PPK format in order to use it to log in to your private instance later
